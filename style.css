@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif !important;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgb(104, 28, 61) 0%, rgba(233,148,206,1) 100%);
+    color: #fff;
+    margin: 100px auto 0 !important;
+    border-radius: 20px;
+    padding: 40px 35px !important;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px !important;
+    border-radius: 30px;
+    height: 60px;
+    flex: 1;
+    margin-right: 16px !important;
+    font-size: 18px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+
+}
+
+.search button img {
+    width: 16px;
+}
+
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px !important;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px !important;
+    margin-top: 50px !important;
+
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px !important;
+}
+
+.humidity,
+.wind {
+    font-size: 28px;
+    margin-top: -6px !important;
+}
+
+.weather {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.blue-gradient {
+    background: linear-gradient(45deg, #3498db, #2980b9);
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px;
+}
+
+.gradient-circle {
+    background: radial-gradient(#3498db, #2980b9);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    width: 140px;
+}
+
+button {
+    background: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2980b9;
+} */
